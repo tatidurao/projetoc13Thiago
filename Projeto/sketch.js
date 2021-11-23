@@ -60,8 +60,8 @@ function draw() {
 
 // Criando flechas para o arco
  function criarFlecha() {
-  var arrow= createSprite(100, 100, 60, 10);
-  flecha.addImage(arrowImage);
+  var flecha= createSprite(100, 100, 60, 10);
+  flecha.addImage(imagemFlecha);
   flecha.x = 360;
   flecha.y=arco.y;
   flecha.velocityX = -4;
